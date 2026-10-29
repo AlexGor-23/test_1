@@ -1,0 +1,8 @@
+# 1. Установить зависимости
+pip install -r requirements.txt
+
+# 2. Обучить модель
+python train_model.py
+
+# 3. Запустить интерфейс
+streamlit run app.py
