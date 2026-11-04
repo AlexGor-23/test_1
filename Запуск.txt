@@ -1,0 +1,14 @@
+# 1. Установка зависимости
+pip install -r requirements.txt
+
+# 2. Обучение модели
+python train.py
+
+# 3. Запуск предсказания обученной моделью
+python app.py
+
+# 4. Запуск API-сервер через uvicorn
+uvicorn main:app --reload
+
+# 5. Открытие Swagger-документации в браузере по адресу
+http://127.0.0.1:8000/docs
